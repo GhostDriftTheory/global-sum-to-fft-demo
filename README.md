@@ -6,6 +6,7 @@
   **<em>Same quantity. Same tolerance. Less cost.</em>**
 </div>
 
+🔗 **Repository:** [https://github.com/GhostDriftTheory/global-sum-to-fft-demo](https://github.com/GhostDriftTheory/global-sum-to-fft-demo)
 
 One-shot demo for accelerating long-range sums using FFT convolution (HPC / numerical computing / signal processing).
 This repository is a **minimal, reproducible demo** that replaces a **global / long-range sum** (expensive reference computation) with a **finite Fejér–Yukawa (FY) window + FFT convolution**.
