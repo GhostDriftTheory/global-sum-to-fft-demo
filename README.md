@@ -6,6 +6,7 @@
   <em>Same quantity. Same tolerance. Less cost.</em>
 </div>
 
+One-shot demo for accelerating long-range sums using FFT convolution (HPC / numerical computing / signal processing).
 This repository is a **minimal, reproducible demo** that replaces a **global / long-range sum** (expensive reference computation) with a **finite Fejér–Yukawa (FY) window + FFT convolution**.
 
 You get a clean **Before / After** with a strict tolerance check:
@@ -16,10 +17,15 @@ You get a clean **Before / After** with a strict tolerance check:
 
 Typical places this pattern shows up:
 
+(Keywords: FFT convolution, overlap-save, windowed convolution, long-range sum, kernel smoothing, HPC)
+
 - long-range interactions in physics simulations (gravitational / Coulomb-like sums)
 - spectral smoothing or kernel aggregation in signal processing
 - naive long-window correlations in time-series or monitoring pipelines
 - any code where a “reference global sum” blocks scaling past ~10^6
+
+
+TL;DR: run once, see speedup.
 
 ---
 
