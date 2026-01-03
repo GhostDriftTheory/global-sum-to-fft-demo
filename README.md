@@ -34,7 +34,7 @@ TL;DR: run once, see speedup.
 
 ```bash
 # 1) clone
-git clone https://github.com/<your-username>/global-sum-to-fft-demo.git
+git clone https://github.com/GhostDriftTheory/global-sum-to-fft-demo.git
 cd global-sum-to-fft-demo
 
 # 2) run the one-shot demo (prints baseline time, fft time, speedup, |Δresult|)
