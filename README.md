@@ -3,8 +3,9 @@
 <div align="center">
   <img src="ghost_drift_demo.gif" alt="Global sum to finite FFT replacement demo" width="100%">
   <br/>
-  <em>Same quantity. Same tolerance. Less cost.</em>
+  **<em>Same quantity. Same tolerance. Less cost.</em>**
 </div>
+
 
 One-shot demo for accelerating long-range sums using FFT convolution (HPC / numerical computing / signal processing).
 This repository is a **minimal, reproducible demo** that replaces a **global / long-range sum** (expensive reference computation) with a **finite Fejér–Yukawa (FY) window + FFT convolution**.
